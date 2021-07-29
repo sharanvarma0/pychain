@@ -1,6 +1,5 @@
 import datetime
-import ../utilities/blockfunctions
-import ../conf
+from blockfunctions import *
 
 class Header:
     def __init__(previous_hash, transactions):
