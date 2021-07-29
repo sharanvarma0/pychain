@@ -8,13 +8,13 @@ class Header:
         self.merkle_root_hash = generatemerklehash(transactions)
         self.timestamp = datetime.datetime.now()
 
-    def getversion(self):
+    def get_version(self):
         return self.version
 
-    def getmerklehash(self):
+    def get_merkle_hash(self):
         return self.merkle_root_hash
 
-    def gettime(self):
+    def get_time(self):
         return self.timestamp
 
 
